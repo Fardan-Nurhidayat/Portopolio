@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*::after::before{
+  box-sizing: border-box;
+}
+
+#nav {
+  width: 18%;
+  height: 100vh;
+}
+
+img{
+  margin: 15px auto;
+  width: 110px;
+  height: 110px;
+  border: 8px solid #2c2f3f;
+}
+
+#container-social {
+  padding-top: 20px;
+}
+
+#social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #2c2f3f;
+  border: 2px;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 6px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#social-links a:hover{
+  color: blue;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bx{
+    font-family: boxicons!important;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+    display: inline-block;
+    text-transform: none;
+}
+
+#nav-menu {
+  padding-top: 30px;
+}
+
+#container-nav {
+  padding: 0;
+  margin: 0;
+}
+
+#container-nav a{
+  color: #a8a9b4;
+  text-decoration: none;
+  margin-left: 0px;
+  padding-right: 50px;
+  font-size: 20px;
+  margin-bottom: 8px;
+  padding-bottom: 15px;
+}
+
+#container-nav a:hover  {
+  color: blue;
+}
+
+#container-nav span {
+  padding-left: 8px;
+}
+
+#container-nav a span,
+#contianer-nav :focus a {
+  font-size: 16px;
+  color: #6f7180;
+}
+
+
